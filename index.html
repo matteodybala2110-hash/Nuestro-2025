@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuestro 20–25 💛</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffbea;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(180deg, #fff3b0, #fffbea);
+      overflow: hidden;
+    }
+
+    .decoraciones {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      z-index: 1;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin: 20px 0;
+      max-width: 600px;
+      z-index: 1;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background: #ffd60a;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s;
+      z-index: 1;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .timeline {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 60px;
+      padding: 40px 20px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #ffe066, #ffd60a);
+      border-radius: 10px;
+    }
+
+    .timeline a {
+      position: relative;
+      z-index: 1;
+      background: white;
+      border-radius: 20px;
+      padding: 20px 25px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .timeline a:hover {
+      transform: translateY(-5px);
+      background: #fff3b0;
+    }
+
+    .month {
+      margin-bottom: 100px;
+    }
+
+    .month h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 390px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.04);
+    }
+
+    .text {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 80px 20px;
+      background: #fff3b0;
+    }
+
+    footer h2 {
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
+
+<body>
+<header id="inicio">
+  <div class="decoraciones">
+    <span style="position:absolute; top:10%; left:15%; font-size:30px;">💛</span>
+    <span style="position:absolute; top:20%; right:20%; font-size:24px;">✨</span>
+    <span style="position:absolute; bottom:15%; left:25%; font-size:28px;">💛</span>
+    <span style="position:absolute; bottom:20%; right:15%; font-size:26px;">🎆</span>
+    <span style="position:absolute; top:15%; left:50%; transform:translateX(-50%); font-size:26px;">
+      ✝️
+    </span>
+  </div>
+  <div class="creditos">
+    <span>Made by Matteo Angelo Saglimbeni Gomez</span><br>
+    <span>For Sofía Pascual Alemany</span>
+  </div>
+  <h1>Nuestro 20–25 💛</h1>
+  <p>Nuestro primer año juntos, de muchos.</p>
+  <a href="#timeline" class="btn">Empezar el viaje ✨</a>
+</header>
+
+<section id="timeline">
+  <h2 style="text-align:center">Nuestra historia este año 💛</h2>
+  <p style="text-align:center">Cada mes es un recuerdo que nos llevó hasta aquí y a la relación que tenemos. ✨</p>
+
+  <div class="timeline">
+    <a href="#enero-junio">Ene–Jun</a>
+    <a href="#julio">Jul</a>
+    <a href="#agosto">Ago</a>
+    <a href="#septiembre">Sep</a>
+    <a href="#octubre">Oct</a>
+    <a href="#noviembre">Nov</a>
+    <a href="#diciembre">Dic</a>
+    <a href="#final">20–26</a>
+  </div>
+</section>
+
+<section id="enero-junio" class="month">
+  <h2>Enero – Junio 💛</h2>
+  <div class="gallery">
+    <img src="images/enero1.jpg" alt="">
+    <img src="images/febrero2.jpg" alt="">
+  </div>
+  <p class="text">
+    Esta época del año incluyó el 5 de febrero, el día que por fin te hablé gracias a todas nuestras conversaciones en clase y a la teacher que me convenció de escribirte; nuestra primera quedada en nuestra cafetería, nuestro primer día de gym juntos y hasta el día que me invitaste a tu cumpleaños, el 15 de junio. Unos meses en los cuales nos llegamos a conocer para luego dar paso a todo lo que vendría después.
+  </p>
+</section>
+
+<section id="julio" class="month">
+  <h2>Julio ☀️</h2>
+  <div class="gallery">
+    <img src="images/febrero1.jpg" alt="">
+    <img src="images/julio3.jpg" alt="">
+    <img src="images/julio1.jpg" alt="">
+    <img src="images/julio2.jpg" alt="">
+  </div>
+  <p class="text">
+    Volvimos a hablar por el intensivo de julio del Yellow y, el día de mi cumpleaños (gracias a tu carta), tuvimos nuestro primer beso (aunque suene un poco lachoso) y el comienzo de algo bonito entre nosotros. Tras los días practicando inglés, las quedadas, la feria y el C1, nos dimos cuenta de lo que podíamos llegar a ser. Aunque teníamos diferencias, el 30 de julio acordamos que no nos impedían tener una relación y, tras la cena, al llegar a mi casa, te pedí ser mi novia (in English). Aunque te dio miedo y no creíste que fuera el momento perfecto, yo sentí que era el correcto, y como tuve la razón.
+  </p>
+</section>
+
+<section id="agosto" class="month">
+  <h2>Agosto 🌻</h2>
+  <div class="gallery">
+    <img src="images/agosto1.jpg" alt="">
+    <img src="images/agosto2.jpg" alt="">
+  </div>
+  <p class="text">
+    Casi todo el mes separados. Aunque no fueron mis semanas favoritas, aprendimos cosas de la distancia. La última semana fue de mis favoritas: cuando subí a Jávea, lo pasamos muy bien, y cuando volviste a Valencia quedamos varios días antes de que me operaran, como cuando fuimos a la iglesia juntos con Clara y Dani.
+  </p>
+</section>
+
+<section id="septiembre" class="month">
+  <h2>Septiembre 🍂</h2>
+  <div class="gallery">
+    <img src="images/septiembre1.jpg" alt="">
+    <img src="images/septiembre2.jpg" alt="">
+    <img src="images/septiembre3.jpg" alt="">
+    <img src="images/septiembre4.jpg" alt="">
+  </div>
+  <p class="text">
+    Empezamos el mes con el día que me abrí a ti en el cual me ayudaste y me apoyaste, ese día me di cuenta que que estabas ahí para mí, lo mismo con el día que me viniste a visitar al hospital y a pesar de ser un mes difícil para mí tú lo hiciste más llevadero y por tu ayuda hice y te di de regalo la pulsera con la madre de Jesús (la cual rompiste😡)
+  </p>
+</section>
+
+<section id="octubre" class="month">
+  <h2>Octubre ✝️</h2>
+  <div class="gallery">
+    <img src="images/octubre1.jpg" alt="">
+    <img src="images/octubre2.jpg" alt="">
+    <img src="images/octubre3.jpg" alt="">
+    <img src="images/octubre4.jpg" alt="">
+  </div>
+  <p class="text">
+    Nuestro tercer mes juntos. Seguías estando ahí para mí y todo iba mejorando poco a poco, especialmente nuestra relación. Este mes tuvo días especiales como cuando te invité a mi casa a comer la carne que preparé o la cena italiana por nuestro tercer mes, con mi regalo de la Biblia.
+  </p>
+</section>
+
+<section id="noviembre" class="month">
+  <h2>Noviembre 🍁</h2>
+  <div class="gallery">
+    <img src="images/noviembre1.jpg" alt="">
+    <img src="images/noviembre2.jpg" alt="">
+    <img src="images/noviembre3.jpg" alt="">
+  </div>
+  <p class="text">
+    Nuestro cuarto mes tuvo días como el del sushi, en el que mi barriga sufrió, pero lo pasamos muy bien. También el día que fuimos a cenar al centro y paseamos con tu amiga Almudena y su novio Pablo. Y después, tu pedazo de regalo del calendario de Adviento.
+  </p>
+</section>
+
+<section id="diciembre" class="month">
+  <h2>Diciembre 🎄</h2>
+  <div class="gallery">
+    <img src="images/diciembre1.jpg" alt="">
+    <img src="images/diciembre2.jpg" alt="">
+    <img src="images/diciembre3.jpg" alt="">
+  </div>
+  <p class="text">
+    El último mes del año. Empezándolo con mi sorpresa del calendario de Adviento, luego el día que montamos mi árbol de Navidad, seguido de muchos días disfrutando simplemente de estar contigo. Y, por último, nuestra primera Navidad juntos, con mi regalo, el de tus padres y el mejor de todos: seguir juntos.
+  </p>
+</section>
+
+<footer id="final">
+  <h2>20–26 ✨</h2>
+
+  <p style="text-align:left;">Querida Sofía,</p>
+
+  <p style="text-align:left;">
+    Con el 2025 terminado, quería agradecerte, con este regalo y estas palabras, nuestro primer año juntos (de muchos). Este año ha sido difícil para mí, pero sería hipócrita decir que ha sido un mal año cuando fue el año en el que empezamos a hablar, salir y estar juntos.
+  </p>
+
+  <p style="text-align:left;">
+    Has estado ahí para mí en cada momento necesario. Además, hemos vivido días y meses muy bonitos juntos: cenas, paseos, planes, regalos y también momentos especiales en los que nos hemos abierto el uno al otro.
+  </p>
+
+  <p style="text-align:left;">
+    Durante el transcurso de este este año he sentido que estamos formando una relación sana y con futuro, y quiero que siga siendo así, porque quiero más años a tu lado Amor.
+  </p>
+
+  <p style="text-align:left;">
+    Estoy muy agradecido con Dios y contigo por este primer año juntos y por poder empezar el 2026 a tu lado. No sé qué nos aguarda el 2026, pero estoy seguro de 2 cosas, que nos esperan días y meses muy especiales para continuar en el mismo camino que va nuestra relación y que sé que quiero vivirlo contigo, Sofía.
+  </p>
+
+  <p style="text-align:left;">Feliz 2026,</p>
+  <p style="text-align:left;">Te quiero 💛</p>
+</footer>
+
+</body>
+</html>
